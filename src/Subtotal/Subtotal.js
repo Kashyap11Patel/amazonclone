@@ -9,6 +9,7 @@ function Subtotal() {
     <div className='subtotal'>
       <p>
         Subtotal {state.basket?.length} items:
+        <small>₹</small>
         <strong>{getBasketTotal(state.basket)}</strong>
       </p>
       <small className='subtotal__gift'>
